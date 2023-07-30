@@ -46,13 +46,3 @@ $example_persons_array = [
   ],
 ];
 
-function getFullnameFromParts($surname, $name, $patronomyc)
-{
-  if ((is_string($surname))  && (is_string($name)) && (is_string($patronomyc))) {
-    return $surname . " " . $name . " " . $patronomyc;
-  } else {
-    return 'УВЫ';
-  }
-}
-
-echo getFullnameFromParts('Иваныч', 5, 'Иваныч');

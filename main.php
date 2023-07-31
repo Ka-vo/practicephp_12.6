@@ -13,6 +13,8 @@
         <?php require "mainArray.php" ?>
         <?php include "getFullnameFromParts.php" ?>
         <?php require "getPartsFromFullname.php" ?>
+        <?php require "getGenderFromName.php" ?>
+        <?php require "getGenderDescription.php" ?>
 
     </nav>
 

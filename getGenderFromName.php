@@ -1,6 +1,9 @@
 <?php
 require "getPartsFromFullname.php";
+?>
+</br>
 
+<?php
 function getGenderFromName($fullNameString)
 {
    $array  = getPartsFromFullname($fullNameString);
@@ -36,4 +39,4 @@ function getGenderFromName($fullNameString)
    }
 }
 
-echo getGenderFromName('Иваново Ивар Ивановч');
+echo getGenderFromName('Иванова Мария Ивановна');

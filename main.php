@@ -15,7 +15,7 @@
         <?php require "getPartsFromFullname.php" ?>
         <?php require "getGenderFromName.php" ?>
         <?php require "getGenderDescription.php" ?>
-
+        <?php require "getPerfectPartner.php" ?>
     </nav>
 
 </body>

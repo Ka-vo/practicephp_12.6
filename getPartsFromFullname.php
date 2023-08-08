@@ -6,9 +6,9 @@ function getPartsFromFullname($fullNameString)
 
   return array_combine($keysArray, $nameArray);
 }
-print_r(getPartsFromFullname("Букин Геннадий Владимирович"));
+//print_r(getPartsFromFullname("Букин Геннадий Владимирович"));
 ?>
-</br>
+//</br>
 
 
 //Тренировка ООП

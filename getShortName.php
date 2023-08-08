@@ -1,5 +1,5 @@
 <?php
-require "getPartsFromFullname.php";
+//require "getPartsFromFullname.php";
 echo "<pre>";
 function getShortName($fullNameString)
 {

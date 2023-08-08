@@ -39,4 +39,4 @@ function getGenderFromName($fullNameString)
    }
 }
 
-echo getGenderFromName('Иванова Мария Ивановна');
+echo getGenderFromName('Бардо Жаклин Фёдоровна');
